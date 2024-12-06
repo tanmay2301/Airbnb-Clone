@@ -1,0 +1,167 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  font-family: Poppins;
+  
+ 
+}
+
+.navbar{
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  
+
+  
+}
+
+.navbar.image{
+  padding-block: 22px;
+  padding-left: 30px;
+  box-shadow: none;
+  
+}
+
+
+.hero{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+ 
+}
+
+.hero-img{
+  height: 29em;
+  padding-block: 30px;
+  padding-right: 30px;
+  
+}
+
+.hero-header{
+  font-size: 40px;
+  font-weight: 700;
+  padding-block: 5px;
+  text-align: center;
+ 
+}
+
+.hero-header.body{
+  font-weight: normal;  
+  font-size: 15px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.hero-tagline{
+  font-weight: normal;
+  font-size: 15px;
+  font-style: italic;
+  text-align: center;
+}
+
+h1,h4{
+  margin: 0;
+}
+
+.card1{
+  max-width: 300px;
+  margin-left: 100px;
+  max-height: 400px;
+  flex-shrink: 0; 
+  width: 300px; 
+  margin-top: 0; 
+  position: relative;
+  
+}
+
+.card1-image{
+  display: block;
+  width: auto;
+  height: 20em;
+  border-radius: 10px;
+  max-width: 236px;
+}
+
+.card1-text{
+  display: flex;
+  align-items: center;
+  padding-block: 5px;
+}
+
+.card1-text>p{
+  margin: 0 ;
+}
+
+.card1-star{
+ height: 0.75rem;
+  
+}
+
+.card1-rating{
+  font-size: 0.75rem;
+  padding-left: 5px ;
+}
+
+.card1-rating.state{
+  color: #918E9B;
+}
+
+
+.card-info {
+  padding-block: 3px;
+  margin: 0;
+  font-size: 0.75rem;
+  font-weight: normal;
+}
+
+.card-para.price{
+  font-weight: bold;
+}
+
+.card-para{
+  margin: 0;
+  display: flex;
+  font-size: 0.75rem;
+}
+
+.card-container {
+  margin-top: 100px;
+  display: flex; 
+  gap: 20px; 
+  overflow-x: auto; 
+  padding: 20px; 
+  scroll-behavior: smooth; 
+  margin-bottom: 1px;
+}
+
+.card-container::-webkit-scrollbar {
+  height: 10px; 
+  
+}
+
+.card-container::-webkit-scrollbar-thumb {
+  background: #ff9d9d; 
+  border-radius: 4px; 
+}
+
+.card-container::-webkit-scrollbar-thumb:hover {
+  background: #ff3232; 
+  cursor: pointer;
+}
+
+.card-badge{
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+
