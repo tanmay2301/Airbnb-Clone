@@ -82,11 +82,19 @@ The project showcases best practices in React development, such as using `props`
 ### Hero Section  
 A captivating introduction with text and an image:  
 
-![Hero Section](path/to/hero-section-screenshot.png)
+![image](https://github.com/user-attachments/assets/d20577a3-1c69-4ff8-9b08-2a0a5808581d)
+
 
 ### Activity Cards  
 Dynamically rendered activity cards with status badges and scrollable layout:  
 
-![Cards Section](path/to/cards-section-screenshot.png)
+![image](https://github.com/user-attachments/assets/2755f133-ace2-48bf-a0c3-a375383f39ae)
 
-*(Replace `path/to/your-screenshot.png` with actual image paths once screenshots are ready.)*
+
+
+###Working Video
+
+https://github.com/user-attachments/assets/1d3e5835-482e-4417-a43b-07fb9d8a9e66
+
+
+
